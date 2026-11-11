@@ -1,0 +1,6 @@
+.Admission PC: network 172.16.32.0, broadcast 172.16.47.255, hosts .1-.254 -> valid.
+Lab printer: network 10.0.8.0, broadcast 10.0.15.255 -> invalid broadcast.
+X-ray server: network 192.168.4.0, broadcast 192.168.5.255 -> invalid network address.
+Clinic router: network 203.0.113.8, broadcast 203.0.113.15, hosts .9-.14 -> valid.
+NAT example: 192.168.1.10:50000 -> 203.0.113.10:50000; 192.168.1.11:50000 -> 203.0.113.10:50001.
+Datagram switching permits different paths and possible reordering; virtual circuits establish a logical path.
