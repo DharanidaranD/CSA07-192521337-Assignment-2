@@ -1,0 +1,7 @@
+Reference route on R1:
+S 192.168.20.0/24 [1/0] via 10.0.0.2
+
+Floating static route example:
+ip route 192.168.20.0 255.255.255.0 <BACKUP_NEXT_HOP> 200
+
+Removing the DCE clock rate causes the serial link to lose required clocking and connectivity fails until restored.
