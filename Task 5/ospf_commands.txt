@@ -1,0 +1,9 @@
+enable
+configure terminal
+router ospf 1
+ auto-cost reference-bandwidth 10000
+ ! Add the actual network statements for your topology.
+end
+write memory
+show ip ospf interface
+show ip route
