@@ -1,0 +1,7 @@
+10.1.2.200 -> 10.1.2.128/25 -> 192.0.2.13
+10.1.2.100 -> 10.1.2.0/24 -> 192.0.2.9
+10.1.9.9 -> 10.1.0.0/16 -> 192.0.2.5
+10.7.7.7 -> 10.0.0.0/8 -> 192.0.2.1
+8.8.8.8 -> default -> 198.51.100.1
+
+Rule: longest-prefix match. R1 DCE uses 10.0.0.1/30 and clock rate 64000; R1 route to city LAN uses next hop 10.0.0.2. Floating static route uses AD 200.
