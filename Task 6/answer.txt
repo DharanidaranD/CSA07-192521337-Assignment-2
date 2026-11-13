@@ -1,0 +1,6 @@
+IPv6 shortest form: 2001:db8::ff00:42:8329
+EUI-64: 021A:2BFF:FE3C:4D5E
+Traceroute increases TTL/Hop Limit; routers return ICMP Time Exceeded when it reaches zero.
+239.1.2.3 -> multicast MAC 01:00:5E:01:02:03.
+HTTP to 10.5.1.1 matches priority 200 -> port 3. SSH to 10.6.1.1 matches neither higher rule -> priority 0 drop.
+6in4 adds 20-byte IPv4 header, so 100-byte payload packet becomes 120 bytes before lower-layer overhead.
