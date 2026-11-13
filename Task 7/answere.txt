@@ -1,0 +1,6 @@
+A. Limitation: Q2 VLSM leaves 28 addresses, but a 60-host hostel requires /26 (62 usable).
+B. Objective: add hostel without renumbering existing networks.
+C. Redesign: retain 192.168.10.0/24 allocations and add another /24; Hostel = 192.168.11.0/26.
+D. Prediction: 62 usable hostel addresses and no changes to existing subnet addresses.
+E. Validate using the same ping, route and overlap tests before and after redesign.
+F. Defence: meets no-renumbering objective but costs additional address space and configuration work.
