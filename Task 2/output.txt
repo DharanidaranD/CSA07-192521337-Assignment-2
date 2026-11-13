@@ -1,0 +1,8 @@
+Labs         192.168.10.0/25 hosts 192.168.10.1 - 192.168.10.126 bcast 192.168.10.127
+Staff        192.168.10.128/26 hosts 192.168.10.129 - 192.168.10.190 bcast 192.168.10.191
+Library      192.168.10.192/27 hosts 192.168.10.193 - 192.168.10.222 bcast 192.168.10.223
+WAN link     192.168.10.224/30 hosts 192.168.10.225 - 192.168.10.226 bcast 192.168.10.227
+next free address: 192.168.10.228
+
+Hostel: 60 hosts requires /26 = 64 addresses, but only 28 addresses remain. It cannot fit without redesign/additional space.
+Summary: 172.16.8.0/22.

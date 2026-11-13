@@ -1,0 +1,5 @@
+Equal-size: four /26 blocks give 62 usable hosts each, so the 100-host Labs requirement cannot be satisfied.
+VLSM: Labs /25, Staff /26, Library /27, WAN /30 as shown in output.txt.
+Hostel: 60 hosts require /26; only 28 addresses remain, so it cannot fit without redesign or additional space.
+Summary route: 172.16.8.0/22. A /21 would also cover 172.16.13.0/24–172.16.15.0/24 unintentionally.
+Largest-first VLSM avoids leaving unusable fragments for later large blocks.
