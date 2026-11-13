@@ -1,0 +1,10 @@
+Default OSPF reference = 100 Mbps.
+10 Mbps -> 10; 100 Mbps -> 1; 1 Gbps -> 1; 10 Gbps -> 1.
+Thus 1 Gbps and 10 Gbps are treated equally at cost 1.
+
+With auto-cost reference-bandwidth 10000:
+10 Mbps -> 1000; 100 Mbps -> 100; 1 Gbps -> 10; 10 Gbps -> 1.
+
+Dijkstra repeatedly selects the smallest tentative distance and relaxes neighbours until the shortest-path tree is complete.
+A small ISP network can use one OSPF area; larger networks may use multiple areas to reduce LSDB/LSA/SPF workload.
+EIGRP uses bandwidth and delay; IS-IS is link-state with configurable metrics.
