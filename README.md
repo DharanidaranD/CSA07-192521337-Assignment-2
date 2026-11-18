@@ -5,7 +5,7 @@
 **Name:** DHARANIDARAN D.  
 **Register Number:** 192521337
 **Department:** B.Tech Information Technology  
-**OS:** WiWindows
+**OS:** Windows
 **Python:** Python 3.1
 **Cisco Packet Tracer:** Not executed in this package.
 
