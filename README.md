@@ -1,12 +1,12 @@
-# CSA07-XXXXXXXX-Assignment2
 
-## Computer Networks – Assignment 2 (CO2)
+
+## CSA07 -CWindow Networks – Assignment 2 (CO2)
 
 **Name:** DHARANIDARAN D.  
-**Register Number:** XXXXXXXX  
+**Register Number:** 192521337
 **Department:** B.Tech Information Technology  
-**OS:** Windows (update to the actual OS used)  
-**Python:** Python 3.x (update to the actual version used)  
+**OS:** WiWindows
+**Python:** Python 3.1
 **Cisco Packet Tracer:** Not executed in this package.
 
 ## Repository structure
